@@ -3,7 +3,6 @@ setwd("~/Data Science/4. Exploratory Data Analysis/Week 1/Project")
 ### Load the packages
 library(dplyr)
 library(lubridate)
-Sys.setlocale("LC_ALL","English")
 
 ### Read the data
 data<-read.csv("household_power_consumption.txt",header = T,sep = ';',na.strings = "?",stringsAsFactors = F)
